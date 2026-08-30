@@ -50,10 +50,36 @@ Este repositório reúne os códigos e relatórios (`Reports`) desenvolvidos dur
 * [`ZEXERCICIO_001.prog.abap`](./src/zexercicios/ZEXERCICIO_001.prog.abap) — **Calculadora de Desconto com Validação:** Aplicação prática combinando `PARAMETERS` obrigatórios (`OBLIGATORY`), validação com mensagem de aviso (`DISPLAY LIKE 'W'`) e cálculo de porcentagem condicional.
 
 ---
+## 📸 Demonstração Prática do Programa (ZCURSO_013)
+
+### 🖥️ 1. Ambiente Local (Mini SAP no VirtualBox)
+Configuração e execução do servidor NetWeaver em ambiente Linux virtualizado.
+
+<img width="80%" alt="Image" src="https://github.com/user-attachments/assets/b88841cf-26bb-47d5-9c3b-cce7c9201721" />
+
+### 💻 2. Desenvolvimento no ABAP Editor (SE38)
+Modularização de código utilizando Includes e sub-rotinas (`FORM`).
+
+<img width="70%" alt="Image" src="https://github.com/user-attachments/assets/17aa5eeb-a411-4d48-be47-d385c04f4521" />
+
+### 📝 3. Tela de Seleção (Selection Screen)
+Interface de entrada de dados com parâmetros obrigatórios e validações de tela.
+
+<img width="70%" alt="Image" src="https://github.com/user-attachments/assets/bf76078a-c7ec-4ab3-886c-4b1ce1eea1ab" />
+
+### 🐞 4. Depuração de Código (ABAP Debugger)
+Inspeção de variáveis em tempo de execução (`LD_MEDIA`), acompanhamento da pilha de eventos e validação da lógica condicional.
+
+<img width="70%" alt="Image" src="https://github.com/user-attachments/assets/bc10fb95-6d33-4634-bf5c-9cd4a134a493" />
+
+### 📄 5. Resultado da Execução (Output)
+Exibição do relatório final processado via instrução `WRITE`.
+
+<img width="60%" alt="Image" src="https://github.com/user-attachments/assets/a1c4ab8b-5f72-4a84-b5ff-1c4fb5918deb" />
+
+---
 
 ## 👩‍💻 Autora
 **Giuliana Maria Gralha dos Santos**  
 *Desenvolvedora SAP ABAP / Analista de TI em transição*  
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/giuliana-gralha-8754b5190/)
-
----
