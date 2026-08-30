@@ -77,6 +77,11 @@ Exibição do relatório final processado via instrução `WRITE`.
 
 <img width="60%" alt="Image" src="https://github.com/user-attachments/assets/a1c4ab8b-5f72-4a84-b5ff-1c4fb5918deb" />
 
+### 📦 6. Sincronização com abapGit
+Interface de gerenciamento e integração do pacote local ao repositório do GitHub via abapGit.
+
+<img width="70%" alt="Image" src="https://github.com/user-attachments/assets/29125a28-1080-4fd8-ba47-f18ad37f46bb" />
+
 ---
 
 ## 👩‍💻 Autora
