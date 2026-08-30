@@ -17,32 +17,32 @@ Este repositório reúne os códigos e relatórios (`Reports`) desenvolvidos dur
 ## 📌 Índice de Programas e Exercícios
 
 ### 1. Fundamentos e Sintaxe Básica
-* [`ZCURSO_002.prog.abap`](./src/ZCURSO_002.prog.abap) — **Declaração de Variáveis e Tipos de Dados:** Exemplo prático cobrindo tipos primários (`I`, `C`, `D`, `T`, `P`), comandos de exibição (`WRITE`, `NEW-LINE`), formatação manual de hora e uso de *String Templates* (`DATE = USER`, `TIME = USER`).
-* [`ZCURSO_003.prog.abap`](./src/ZCURSO_003.prog.abap) — **Constantes e Operações Matemáticas:** Cálculo da área de um círculo utilizando a palavra-chave `CONSTANTS`, manipulação de decimais e cálculo com variáveis.
-* [`ZCURSO_004.prog.abap`](./src/ZCURSO_004.prog.abap) — **Manipulação de Textos:** Concatenação de strings utilizando o comando clássico `CONCATENATE ... SEPARATED BY` e o uso moderno de *String Templates*.
+* [`zcurso_002.prog.abap`](./src/zcurso_002.prog.abap) — **Declaração de Variáveis e Tipos de Dados:** Exemplo prático cobrindo tipos primários (`I`, `C`, `D`, `T`, `P`), comandos de exibição (`WRITE`, `NEW-LINE`), formatação manual de hora e uso de *String Templates* (`DATE = USER`, `TIME = USER`).
+* [`ZCURSO_003.prog.abap`](./src/zcurso_003.prog.abap) — **Constantes e Operações Matemáticas:** Cálculo da área de um círculo utilizando a palavra-chave `CONSTANTS`, manipulação de decimais e cálculo com variáveis.
+* [`zcurso_004.prog.abap`](./src/zcurso_004.prog.abap) — **Manipulação de Textos:** Concatenação de strings utilizando o comando clássico `CONCATENATE ... SEPARATED BY` e o uso moderno de *String Templates*.
 
 ---
 
 ### 2. Telas de Seleção e Estruturas Condicionais
-* [`ZCURSO_005.prog.abap`](./src/ZCURSO_005.prog.abap) — **Parâmetros e Bloco de Seleção:** Criação de telas com `SELECTION-SCREEN BEGIN OF BLOCK` e recebimento de dados via `PARAMETERS` para cálculo de média.
-* [`ZCURSO_006.prog.abap`](./src/ZCURSO_006.prog.abap) — **Lógica Condicional (IF / ELSEIF / ELSE):** Validação de faixas de notas e uso de operadores lógicos (`AND`, `OR`, `<=`, `>=`).
-* [`ZCURSO_007.prog.abap`](./src/ZCURSO_007.prog.abap) — **Estrutura CASE / WHEN:** Mapeamento de categorias de CNH para descrição de veículos utilizando controle de fluxo por chave.
-* [`ZCURSO_008.prog.abap`](./src/ZCURSO_008.prog.abap) — **Símbolos de Texto (Text Symbols):** Reuso de textos fixos da tela através da abstração `TEXT-00x`.
+* [`zcurso_005.prog.abap`](./src/zcurso_005.prog.abap) — **Parâmetros e Bloco de Seleção:** Criação de telas com `SELECTION-SCREEN BEGIN OF BLOCK` e recebimento de dados via `PARAMETERS` para cálculo de média.
+* [`zcurso_006.prog.abap`](./src/zcurso_006.prog.abap) — **Lógica Condicional (IF / ELSEIF / ELSE):** Validação de faixas de notas e uso de operadores lógicos (`AND`, `OR`, `<=`, `>=`).
+* [`zcurso_007.prog.abap`](./src/zcurso_007.prog.abap) — **Estrutura CASE / WHEN:** Mapeamento de categorias de CNH para descrição de veículos utilizando controle de fluxo por chave.
+* [`zcurso_008.prog.abap`](./src/zcurso_008.prog.abap) — **Símbolos de Texto (Text Symbols):** Reuso de textos fixos da tela através da abstração `TEXT-00x`.
 
 ---
 
 ### 3. Mensagens, Eventos e Modularização
-* [`ZCURSO_010.prog.abap`](./src/ZCURSO_010.prog.abap) — **Classes de Mensagens (SE91):** Uso de mensagens do sistema (`MESSAGE`), passagem de parâmetros dinâmicos com `WITH` e definição de classe global no programa.
-* [`ZCURSO_011.prog.abap`](./src/ZCURSO_011.prog.abap) — **Eventos de Tela de Seleção:** Demonstração prática do ciclo de vida da tela com `AT SELECTION-SCREEN`, `OUTPUT`, `ON <field>`, `ON HELP-REQUEST` e blocos.
-* [`ZCURSO_012.prog.abap`](./src/ZCURSO_012.prog.abap) — **Modularização por Includes:** Separação estrutural de um Report em arquivos de topo (`_TOP`), seleção (`_SEL`) e execução (`_SOS`).
-* [`ZCURSO_013.prog.abap`](./src/ZCURSO_013.prog.abap) — **Sub-rotinas (FORMs):** Uso do comando `PERFORM` e criação de rotinas reutilizáveis em `INCLUDES` específicos (`_FRM`).
+* [`zcurso_010.prog.abap`](./src/zcurso_010.prog.abap) — **Classes de Mensagens (SE91):** Uso de mensagens do sistema (`MESSAGE`), passagem de parâmetros dinâmicos com `WITH` e definição de classe global no programa.
+* [`zcurso_011.prog.abap`](./src/zcurso_011.prog.abap) — **Eventos de Tela de Seleção:** Demonstração prática do ciclo de vida da tela com `AT SELECTION-SCREEN`, `OUTPUT`, `ON <field>`, `ON HELP-REQUEST` e blocos.
+* [`zcurso_012.prog.abap`](./src/zcurso_012.prog.abap) — **Modularização por Includes:** Separação estrutural de um Report em arquivos de topo (`_TOP`), seleção (`_SEL`) e execução (`_SOS`).
+* [`zcurso_013.prog.abap`](./src/zcurso_013.prog.abap) — **Sub-rotinas (FORMs):** Uso do comando `PERFORM` e criação de rotinas reutilizáveis em `INCLUDES` específicos (`_FRM`).
 
 ---
 
 ### 4. Estruturas e Tabelas Internas
-* [`ZCURSO_014.prog.abap`](./src/ZCURSO_014.prog.abap) — **Declaração e Preenchimento de Estruturas (Work Areas):** Criação de estruturas locais com `DATA BEGIN OF ... END OF` e atribuição de valores campo a campo vs. variáveis primitivas isoladas.
-* [`ZCURSO_015.prog.abap`](./src/ZCURSO_015.prog.abap) — **Manipulação Avançada de Estruturas:** Demonstração de preenchimento individual de componentes e atribuição direta por posição de memória (string contínua) em estruturas de dados.
-* [`ZCURSO_016.prog.abap`](./src/ZCURSO_016.prog.abap) — **Tabelas Internas Standard (`STANDARD TABLE`):** Manipulação de tabelas em memória baseadas em estruturas do ABAP Dictionary (`SE11`), cobrindo comandos de inserção (`APPEND`), alteração por índice (`MODIFY ... INDEX`) e limpeza total de dados (`CLEAR`).
+* [`zcurso_014.prog.abap`](./src/zcurso_014.prog.abap) — **Declaração e Preenchimento de Estruturas (Work Areas):** Criação de estruturas locais com `DATA BEGIN OF ... END OF` e atribuição de valores campo a campo vs. variáveis primitivas isoladas.
+* [`zcurso_015.prog.abap`](./src/zcurso_015.prog.abap) — **Manipulação Avançada de Estruturas:** Demonstração de preenchimento individual de componentes e atribuição direta por posição de memória (string contínua) em estruturas de dados.
+* [`zcurso_016.prog.abap`](./src/zcurso_016.prog.abap) — **Tabelas Internas Standard (`STANDARD TABLE`):** Manipulação de tabelas em memória baseadas em estruturas do ABAP Dictionary (`SE11`), cobrindo comandos de inserção (`APPEND`), alteração por índice (`MODIFY ... INDEX`) e limpeza total de dados (`CLEAR`).
 
 ---
 
